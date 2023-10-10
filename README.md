@@ -45,6 +45,8 @@ y ahora deberíamos ver el test pasar.
 
 La función `fileExtension` contiene un bug. Si nuestro archivo contiene puntos en el nombre, la extensión no se calculará correctamente. Por ejemplo, la extensión del archivo `entrega1.2.pdf` debería ser `pdf`.
 
+[ ] Asegúrate de entender lo que hace la función y los tests
+
 [ ] Escribe un test que verifique que la función no se comporta correctamente cuando el nombre del archivo tiene puntos. Este test debería fallar mientras exista el bug.
 
 [ ] Corrige el código para que se extraiga la extensión del archivo correctamente y verifica
